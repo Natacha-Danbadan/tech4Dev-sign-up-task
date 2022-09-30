@@ -1,0 +1,86 @@
+* { padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f7fafc;
+}
+.container{
+    width: 100%;
+    padding: 40px 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sign-up-wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.form-section{
+    width: 40%;
+    padding:50px;
+    background-color: white;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+}
+.form-section input[type="text"], input[type="email"], input[type="Password"], button{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    font-size: 16px;
+    margin-top: 10px ;
+    border-radius: 5px;
+    background-color: #f7fafc;
+}
+button:hover{
+    background-color: rgb(238, 197, 205);
+    font-size: 18px;
+}
+input:focus, input[type="text"]:focus{
+    background-color: white;
+    /* border-color: rgb(102, 126, 234); */
+    outline: none;
+    border: 2px double rgb(238, 197, 205);  
+}
+p{
+    text-align: center;
+    width: 80%;
+    font-size: 12px;
+    font-style: italic;
+}
+.bg-section{
+    width: 60%;
+    background-image: url(/bg-svg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: aliceblue;
+}
+
+@media (max-width:670px){
+    .form-section{
+        width: 100%;
+        background-color: aliceblue;
+    }
+    h1{
+        font-size: 16px;
+    }
+    .form-section input[type="text"], input[type="email"], input[type="Password"], button{
+        width: 100%;
+    }
+    .bg-section{
+        display: none;
+    }
+    p{
+        width: 100%;
+    }
+
+}
