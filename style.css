@@ -30,7 +30,7 @@ h1{
 label {
     font-size: 16px;
 }
-.form-section input[type="text"], input[type="email"], input[type="Password"], button{
+.form-section input[type="text"], input[type="email"], input[type="Password"] {
     width: 80%;
     padding: 10px;
     margin-bottom: 20px;
@@ -40,8 +40,18 @@ label {
     border-radius: 5px;
     background-color: #f7fafc;
 }
+button{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #000;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: pink;
+}
 button:hover{
-    background-color: rgb(238, 197, 205);
+    background-color: rgb(240, 16, 61);
     font-size: 18px;
 }
 input:focus, input[type="text"]:focus{
@@ -55,6 +65,7 @@ p{
     width: 80%;
     font-size: 12px;
     font-style: italic;
+    font-weight: 700;
 }
 .bg-section{
     width: 60%;
